@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pegasus: The ultimate Minecraft cheat for epic gameplay">
   <title>Pegasus - Ultimate Minecraft Cheat</title>
   <link rel="stylesheet" href="/assets/css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
@@ -10,67 +11,102 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
 <body class="bg-gray-900 text-white font-sans">
-  <header class="bg-black p-4 fixed w-full top-0 z-10">
+  <header class="bg-black bg-opacity-80 p-4 fixed w-full top-0 z-10 shadow-lg">
     <nav class="container mx-auto flex justify-between items-center">
-      <h1 class="text-2xl font-bold">Pegasus</h1>
+      <h1 class="text-2xl font-bold text-purple-500">Pegasus</h1>
       <ul class="flex space-x-4">
-        <li><a href="#home" class="hover:text-purple-500">Home</a></li>
-        <li><a href="#features" class="hover:text-purple-500">Features</a></li>
-        <li><a href="#download" class="hover:text-purple-500">Download</a></li>
-        <li><a href="#contact" class="hover:text-purple-500">Contact</a></li>
+        <li><a href="#home" class="hover:text-neon-green transition-colors">Home</a></li>
+        <li><a href="#features" class="hover:text-neon-green transition-colors">Features</a></li>
+        <li><a href="#download" class="hover:text-neon-green transition-colors">Download</a></li>
+        <li><a href="#contact" class="hover:text-neon-green transition-colors">Contact</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <section id="home" class="hero text-center py-40 bg-cover" style="background-image: url('/assets/img/minecraft-bg.jpg')">
-      <h2 class="text-4xl font-bold" data-aos="fade-up">Welcome to Pegasus</h2>
-      <p class="text-xl mt-4" data-aos="fade-up" data-aos-delay="100">The ultimate Minecraft cheat for epic gameplay!</p>
-      <a href="#download" class="mt-6 inline-block bg-purple-600 text-white py-2 px-4 rounded hover:bg-purple-700" data-aos="fade-up" data-aos-delay="200">Download Now</a>
+    <section id="home" class="hero text-center py-40 bg-cover bg-fixed" style="background-image: url('/assets/img/minecraft-bg.jpg')">
+      <h2 class="text-5xl font-bold text-purple-300" data-aos="zoom-in">Welcome to Pegasus</h2>
+      <p class="text-xl mt-4 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">The ultimate Minecraft cheat for dominating any server!</p>
+      <a href="#download" class="mt-6 inline-block bg-purple-600 text-white py-3 px-6 rounded-lg hover:bg-purple-700 transition-transform transform hover:scale-105" data-aos="fade-up" data-aos-delay="200">Download Now</a>
     </section>
     <section id="features" class="features container mx-auto py-10">
-      <h3 class="text-3xl text-center mb-6">Our Features</h3>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div class="p-4 bg-gray-800 rounded shadow" data-aos="fade-up">
-          <i class="fas fa-eye fa-2x mb-2"></i>
-          <h4 class="text-xl">X-Ray</h4>
-          <p>See through blocks to find resources!</p>
+      <h3 class="text-3xl text-center mb-8 text-purple-300">Our Features</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="p-4 bg-gray-800 rounded-lg shadow-lg hover:shadow-neon-green transition-shadow" data-aos="fade-up">
+          <i class="fas fa-eye fa-2x mb-3 text-purple-500"></i>
+          <h4 class="text-xl font-bold">X-Ray</h4>
+          <p class="text-sm">See through blocks to find valuable resources.</p>
         </div>
-        <div class="p-4 bg-gray-800 rounded shadow" data-aos="fade-up" data-aos-delay="100">
-          <i class="fas fa-crosshairs fa-2x mb-2"></i>
-          <h4 class="text-xl">Aimbot</h4>
-          <p>Perfect aiming for PvP battles.</p>
+        <div class="p-4 bg-gray-800 rounded-lg shadow-lg hover:shadow-neon-green transition-shadow" data-aos="fade-up" data-aos-delay="100">
+          <i class="fas fa-crosshairs fa-2x mb-3 text-purple-500"></i>
+          <h4 class="text-xl font-bold">Aimbot</h4>
+          <p class="text-sm">Perfect aiming for PvP battles.</p>
         </div>
-        <div class="p-4 bg-gray-800 rounded shadow" data-aos="fade-up" data-aos-delay="200">
-          <i class="fas fa-plane fa-2x mb-2"></i>
-          <h4 class="text-xl">Fly Hack</h4>
-          <p>Fly freely across the Minecraft world.</p>
+        <div class="p-4 bg-gray-800 rounded-lg shadow-lg hover:shadow-neon-green transition-shadow" data-aos="fade-up" data-aos-delay="200">
+          <i class="fas fa-plane fa-2x mb-3 text-purple-500"></i>
+          <h4 class="text-xl font-bold">Fly Hack</h4>
+          <p class="text-sm">Fly freely across the Minecraft world.</p>
+        </div>
+        <div class="p-4 bg-gray-800 rounded-lg shadow-lg hover:shadow-neon-green transition-shadow" data-aos="fade-up" data-aos-delay="300">
+          <i class="fas fa-sword fa-2x mb-3 text-purple-500"></i>
+          <h4 class="text-xl font-bold">Kill Aura</h4>
+          <p class="text-sm">Automatically attack nearby enemies.</p>
+        </div>
+        <div class="p-4 bg-gray-800 rounded-lg shadow-lg hover:shadow-neon-green transition-shadow" data-aos="fade-up" data-aos-delay="400">
+          <i class="fas fa-tachometer-alt fa-2x mb-3 text-purple-500"></i>
+          <h4 class="text-xl font-bold">Speed Hack</h4>
+          <p class="text-sm">Run and sprint at super speed.</p>
+        </div>
+        <div class="p-4 bg-gray-800 rounded-lg shadow-lg hover:shadow-neon-green transition-shadow" data-aos="fade-up" data-aos-delay="500">
+          <i class="fas fa-user-secret fa-2x mb-3 text-purple-500"></i>
+          <h4 class="text-xl font-bold">ESP</h4>
+          <p class="text-sm">Highlight enemies and animals through walls.</p>
+        </div>
+        <div class="p-4 bg-gray-800 rounded-lg shadow-lg hover:shadow-neon-green transition-shadow" data-aos="fade-up" data-aos-delay="600">
+          <i class="fas fa-pickaxe fa-2x mb-3 text-purple-500"></i>
+          <h4 class="text-xl font-bold">Auto-Mine</h4>
+          <p class="text-sm">Automatically mine blocks with ease.</p>
+        </div>
+        <div class="p-4 bg-gray-800 rounded-lg shadow-lg hover:shadow-neon-green transition-shadow" data-aos="fade-up" data-aos-delay="700">
+          <i class="fas fa-shield-alt fa-2x mb-3 text-purple-500"></i>
+          <h4 class="text-xl font-bold">No Fall Damage</h4>
+          <p class="text-sm">Jump from any height without damage.</p>
+        </div>
+        <div class="p-4 bg-gray-800 rounded-lg shadow-lg hover:shadow-neon-green transition-shadow" data-aos="fade-up" data-aos-delay="800">
+          <i class="fas fa-chest fa-2x mb-3 text-purple-500"></i>
+          <h4 class="text-xl font-bold">Chest Finder</h4>
+          <p class="text-sm">Locate nearby chests instantly.</p>
+        </div>
+        <div class="p-4 bg-gray-800 rounded-lg shadow-lg hover:shadow-neon-green transition-shadow" data-aos="fade-up" data-aos-delay="900">
+          <i class="fas fa-shield fa-2x mb-3 text-purple-500"></i>
+          <h4 class="text-xl font-bold">Anti-Knockback</h4>
+          <p class="text-sm">Prevent knockback from hits.</p>
         </div>
       </div>
     </section>
     <section id="download" class="download container mx-auto py-10 text-center">
-      <h3 class="text-3xl mb-6">Download Pegasus</h3>
-      <p>Get the latest version of Pegasus for Minecraft.</p>
-      <a href="https://external-link.com/pegasus.zip" class="mt-6 inline-block bg-purple-600 text-white py-2 px-4 rounded hover:bg-purple-700">Download Now</a>
+      <h3 class="text-3xl mb-6 text-purple-300">Download Pegasus</h3>
+      <p class="max-w-xl mx-auto">Get the latest version of Pegasus and dominate Minecraft!</p>
+      <a href="https://external-link.com/pegasus.zip" class="mt-6 inline-block bg-purple-600 text-white py-3 px-6 rounded-lg hover:bg-purple-700 transition-transform transform hover:scale-105">Download Now</a>
       <p class="mt-4 text-sm">Note: Use cheats responsibly and follow Minecraft's EULA.</p>
     </section>
     <section id="contact" class="contact container mx-auto py-10">
-      <h3 class="text-3xl text-center mb-6">Contact Us</h3>
+      <h3 class="text-3xl text-center mb-6 text-purple-300">Contact Us</h3>
       <form action="https://formspree.io/f/your-form-id" method="POST" class="max-w-md mx-auto">
         <label for="name" class="block mb-2">Name:</label>
-        <input type="text" id="name" name="name" class="w-full p-2 bg-gray-800 rounded" required>
+        <input type="text" id="name" name="name" class="w-full p-2 bg-gray-800 rounded border border-gray-600 focus:border-purple-500" required>
         <label for="email" class="block mb-2 mt-4">Email:</label>
-        <input type="email" id="email" name="email" class="w-full p-2 bg-gray-800 rounded" required>
+        <input type="email" id="email" name="email" class="w-full p-2 bg-gray-800 rounded border border-gray-600 focus:border-purple-500" required>
         <label for="message" class="block mb-2 mt-4">Message:</label>
-        <textarea id="message" name="message" class="w-full p-2 bg-gray-800 rounded" required></textarea>
-        <button type="submit" class="mt-6 bg-purple-600 text-white py-2 px-4 rounded hover:bg-purple-700">Send</button>
+        <textarea id="message" name="message" class="w-full p-2 bg-gray-800 rounded border border-gray-600 focus:border-purple-500" required></textarea>
+        <button type="submit" class="mt-6 bg-purple-600 text-white py-3 px-6 rounded-lg hover:bg-purple-700 transition-transform transform hover:scale-105">Send</button>
       </form>
     </section>
   </main>
   <footer class="bg-black p-4 text-center">
     <p>© 2025 Pegasus. All rights reserved.</p>
-    <a href="https://discord.gg/example" class="text-purple-500">Join our Discord!</a>
+    <a href="https://discord.gg/example" class="text-neon-green hover:underline">Join our Discord!</a>
   </footer>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>AOS.init();</script>
+  <script>AOS.init({ duration: 800, easing: 'ease-out' });</script>
 </body>
 </html>
